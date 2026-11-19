@@ -1,4 +1,6 @@
 # Category theory 
 Mathematical framework
-- studies abstract structures
-- their relationships and andntransformationsher than their internal contents.
+- studies abstract structures... 
+- their relationships and
+- transformations
+Rather than their internal contents.
