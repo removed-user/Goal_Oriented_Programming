@@ -31,3 +31,13 @@
 * **Core Focus:** Separating raw data structures from the step-by-step procedures or subroutines that operate on them.
 * **How it Works:** Functions execute sequentially and often mutate data in place, closely aligning with Data-Oriented Design's (DOD) separation of flat structs and processing loops (contrasting with OOP).
 * **Best For:** High-performance systems programming, game engines, and hardware-level optimization (e.g., C, Rust, Zig).
+
+### Object-Oriented Programming (OOP)
+* **Core Focus:** Bundling state (data) and behavior (methods) together into self-contained "objects."
+* **How it Works:** Objects encapsulate internal state and communicate via methods, relying on class hierarchies, inheritance, and polymorphism to model real-world or domain entities.
+* **Best For:** Complex business domains, enterprise applications, and large codebases requiring clear encapsulation boundaries (e.g., Java, C#, Python).
+
+### Data-Oriented (DOP & DOD)
+* **Core Focus:** Treating data as a first-class citizen, completely decoupled from behavior and business logic.
+* **How it Works:** Splits into **Data-Oriented Programming (DOP)**, which uses generic, immutable data structures transformed by pure functions, and **Data-Oriented Design (DOD)**, which organizes flat data layouts in memory for optimal CPU cache efficiency.
+* **Best For:** Information-heavy backends and data pipelines (DOP), or performance-critical game engines and simulations (DOD).
