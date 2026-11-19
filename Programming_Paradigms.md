@@ -47,3 +47,22 @@
 * **How it Works:** Instead of pulling data or manually updating dependent values, code subscribes to continuous streams of data (like variables, user inputs, or network feeds) that automatically push updates downstream whenever a value changes.
 * **Best For:** Real-time dashboards, live financial tickers, interactive frontends (e.g., RxJS, React signals), and high-throughput streaming backends.
 
+### Actor-Oriented Programming (Actor Model)
+* **Core Focus:** Isolated, concurrent units ("actors") that communicate exclusively by passing asynchronous messages.
+* **How it Works:** Instead of sharing memory or using locks, each actor encapsulates its own private state and processes messages from a personal mailbox one at a time, eliminating classic concurrency bugs.
+* **Best For:** Highly concurrent, distributed, and fault-tolerant systems (e.g., Erlang, Elixir, Akka).
+
+### Contract-Oriented Programming (Design by Contract)
+* **Core Focus:** Defining formal, verifiable interface agreements (preconditions, postconditions, and invariants) between software components.
+* **How it Works:** Components act like clients and suppliers bound by strict rules: if a caller meets the input requirements, the function guarantees a specific output state, catching logic errors immediately at runtime or compile-time.
+* **Best For:** Safety-critical systems, financial software, and strict API/library boundaries (e.g., Eiffel, Ada, D, Rust assertions).
+
+### Domain-Oriented (Domain-Driven Design / DDD)
+* **Core Focus:** Aligning software structure, language, and boundaries directly with real-world business domains.
+* **How it Works:** Developers and domain experts share a "Ubiquitous Language" and divide large systems into distinct "Bounded Contexts" so complex business rules stay isolated and clean.
+* **Best For:** Large, complex enterprise software where business logic is more complicated than the underlying technical infrastructure.
+
+### Language-Oriented Programming (LOP)
+* **Core Focus:** Solving problems by first building custom Domain-Specific Languages (DSLs) tailored to the exact problem space.
+* **How it Works:** Instead of forcing business rules into general-purpose code, developers design small, expressive mini-languages (or macros) and then write the application inside them.
+* **Best For:** Compilers, configuration engines, financial modeling, and rule engines (e.g., Racket, Lisp, JetBrains MPS).
