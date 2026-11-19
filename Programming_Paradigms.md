@@ -41,3 +41,9 @@
 * **Core Focus:** Treating data as a first-class citizen, completely decoupled from behavior and business logic.
 * **How it Works:** Splits into **Data-Oriented Programming (DOP)**, which uses generic, immutable data structures transformed by pure functions, and **Data-Oriented Design (DOD)**, which organizes flat data layouts in memory for optimal CPU cache efficiency.
 * **Best For:** Information-heavy backends and data pipelines (DOP), or performance-critical game engines and simulations (DOD).
+
+### Reactive Programming
+* **Core Focus:** Asynchronous data streams and the automatic propagation of state changes.
+* **How it Works:** Instead of pulling data or manually updating dependent values, code subscribes to continuous streams of data (like variables, user inputs, or network feeds) that automatically push updates downstream whenever a value changes.
+* **Best For:** Real-time dashboards, live financial tickers, interactive frontends (e.g., RxJS, React signals), and high-throughput streaming backends.
+
