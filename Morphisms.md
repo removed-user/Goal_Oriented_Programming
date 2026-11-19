@@ -6,6 +6,7 @@ Instead they're:
    - Function Shapes
    - Traversal patterns, or
    - Vectors/Directions
+   - AKA:Ways in which you "morph" your data
 
 | Morphism | Traversal Archetype | Direction | What Each Step Observes | Array / Data Effect |
 | :--- | :--- | :--- | :--- | :--- |
