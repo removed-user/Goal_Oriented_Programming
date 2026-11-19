@@ -1,13 +1,31 @@
 ## Data Structures
-• Linear / Contiguous (Vectors & SoA): Flat, sequential arrays of uniform data (e.g., batch streams, ECS component columns, time-series).
-• Relational / Indexed (Tables & IDs): Normalized entities separated into distinct tables and linked via primary/foreign keys (e.g., RDBMS schemas, entity ID lookups).
-• Hierarchical (Trees & Nested Maps): Branching parent-child structures with a single root and no cycles (e.g., JSON/EDN documents, Abstract Syntax Trees, scene graphs).
-• Directed Acyclic Graph (DAG): Dependency graphs where data flows forward without loops (e.g., dataflow pipelines, build systems, query execution plans).
-• Cyclic Graph (State & Feedback): Networks where outputs loop back as inputs over time (e.g., state machines, game loops, reactive UI graphs).
+- Linear / Contiguous:
+    - (Vectors & SoA) Flat, sequential arrays of uniform data:
+    - (e.g., batch streams, ECS component columns, time-series).
+- Relational / Indexed:
+    - (Tables & IDs) Normalized entities separated into distinct tables and linked via primary/foreign keys:
+    - (e.g., RDBMS schemas, entity ID lookups).
+- Hierarchical:
+    - (Trees & Nested Maps) Branching parent-child structures with a single root and no cycles:
+    - (e.g., JSON/EDN documents, Abstract Syntax Trees, scene graphs).
+- Directed Acyclic Graph:
+    - (DAG) Dependency graphs where data flows forward without loops:
+    - (e.g., dataflow pipelines, build systems, query execution plans).
+- Cyclic Graph:
+    - (State & Feedback) Networks where outputs loop back as inputs over time:
+    - (e.g., state machines, game loops, reactive UI graphs).
 ## Function Shapes
-• Map (1 -> 1 | N -> N): Applies a transformation to every element while preserving the overall container shape.
-• Filter / Slice (N -> <=N): Evaluates a predicate to keep a subset of elements and discard the rest.
-• Fold / Reduce (N -> 1): Collapses a collection down into a single summary value, scalar, or accumulated state.
-• Unfold / Expand (1 -> N): Generates a sequence, stream, or branching structure out of a single seed value (e.g., pagination, tree expansion).
-• Join / Zip (A x B -> C): Combines two or more data streams into one based on matching keys, indices, or positions.
-• Dispatch / Route (T_i -> f_i): Inspects the runtime type or shape of incoming data to select the matching implementation (e.g., multiple dispatch, pattern matching).
+- Map:
+    - (1 -> 1 | N -> N) Applies a transformation to every element while preserving the overall container shape.
+- Filter / Slice:
+    - (N -> <=N) Evaluates a predicate to keep a subset of elements and discard the rest.
+- Fold / Reduce:
+    - (N -> 1) Collapses a collection down into a single summary value, scalar, or accumulated state.
+- Unfold / Expand:
+    - (1 -> N) Generates a sequence, stream, or branching structure out of a single seed value:
+    - (e.g., pagination, tree expansion).
+- Join / Zip:
+    - (A x B -> C) Combines two or more data streams into one based on matching keys, indices, or positions.
+- Dispatch / Route:
+    - (T_i -> f_i) Inspects the runtime type or shape of incoming data to select the matching implementation:
+    - (e.g., multiple dispatch, pattern matching).
