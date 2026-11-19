@@ -1,3 +1,11 @@
+# Morphisms
+
+- Morphisms are not functions or data structures in and of themselves.
+
+Instead they're:
+   - Function Shapes
+   - Traversal patterns, or
+   - Vectors/Directions
 
 | Morphism | Traversal Archetype | Direction | What Each Step Observes | Array / Data Effect |
 | :--- | :--- | :--- | :--- | :--- |
