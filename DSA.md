@@ -14,7 +14,7 @@
 - Cyclic Graph:
     - (State & Feedback) Networks where outputs loop back as inputs over time:
     - (e.g., state machines, game loops, reactive UI graphs).
-## Function Shapes
+## Algorithms (Function Shapes)
 - Map:
     - (1 -> 1 | N -> N) Applies a transformation to every element while preserving the overall container shape.
 - Filter / Slice:
