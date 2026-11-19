@@ -9,6 +9,7 @@ Instead they're:
 
 | Morphism | Traversal Archetype | Direction | What Each Step Observes | Array / Data Effect |
 | :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
 | **Catamorphism** | The Summary | Consume (Teardown) | Current element + accumulated result so far | Collapses an array into a single value (`reduce`, `sum`) |
 | **Paramorphism** | The Lookahead | Consume (Teardown) | Current element + accumulator + *untouched remainder* | Reduces while inspecting the rest of the array (`tails`, scans) |
 | **Histomorphism** | The Memory | Consume (Teardown) | Current element + *all previous intermediate results* | Looks back at past states (dynamic programming, stencils) |
