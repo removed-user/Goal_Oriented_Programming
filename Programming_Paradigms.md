@@ -22,3 +22,12 @@
 * **Core Focus:** Describing *what* the desired outcome is, rather than *how* to compute it step-by-step.
 * **How it Works:** You define a set of facts, rules, or constraints, and an underlying engine figures out the execution path to satisfy them.
 * **Best For:** Database queries (SQL), configuration management (Terraform), and rule-based AI/scheduling (Prolog).
+### Functional Programming (Core Behavioral Model of DOP)
+* **Core Focus:** Evaluating mathematical functions while avoiding mutable data and changing state.
+* **How it Works:** Pure functions take immutable data as input and return new transformed copies without causing side effects, serving as the behavioral foundation for Data-Oriented Programming (DOP).
+* **Best For:** Concurrent systems, data transformation pipelines, and predictable web/backend applications (e.g., Clojure, Elixir, TypeScript).
+
+### Procedural Programming (Aligned with DOD)
+* **Core Focus:** Separating raw data structures from the step-by-step procedures or subroutines that operate on them.
+* **How it Works:** Functions execute sequentially and often mutate data in place, closely aligning with Data-Oriented Design's (DOD) separation of flat structs and processing loops (contrasting with OOP).
+* **Best For:** High-performance systems programming, game engines, and hardware-level optimization (e.g., C, Rust, Zig).
