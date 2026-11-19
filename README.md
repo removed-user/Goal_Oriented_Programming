@@ -9,4 +9,4 @@ I wanted to articulate, outline, organize, and summarize my hatred of the OOPS d
 To be fair to oops, oops isn't actually the only stupid paradigm with this problem
 
 There are many stupid paradigms. See: A list of
-[Programming_Paradigms](Theory/Programming_Paradigms/README.MD)
+[Programming_Paradigms](Theory/Programming_Paradigms/README.md)
